@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8">
+    //cruz lopez ricardo alberto
+    <script>
+        function saludo()
+        {
+            let nom_usuario = document.fdatos.entrada.value
+            document.writeln('<h3> HOLA , QUE TENGA UN BUEN DIA ');
+            document.write(`${nom_usuario}`);
+           document.write('<h3>');
+}
+        
+    </script>
+</head>
+<body bgcolor="red">
+    <form name="fdatos">
+        ESCRIBE TU NOMBRE: <input type="text" size="10" name="entrada">
+        <input type="button" value="Pulsa aqui" onclick="saludo()">
+    </form>
+</body>
+</html>
